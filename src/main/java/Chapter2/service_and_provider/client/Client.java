@@ -1,8 +1,8 @@
-package Chapter1.service_and_provider.client;
+package Chapter2.service_and_provider.client;
 
-import Chapter1.service_and_provider.manager.LanguageServicesV1;
-import Chapter1.service_and_provider.manager.LanguageServicesV2;
-import Chapter1.service_and_provider.service.LanguageService;
+import Chapter2.service_and_provider.manager.LanguageServicesV1;
+import Chapter2.service_and_provider.manager.LanguageServicesV2;
+import Chapter2.service_and_provider.service.LanguageService;
 
 public class Client {
     public static void main(String[] args) {

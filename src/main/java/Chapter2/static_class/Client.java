@@ -1,4 +1,4 @@
-package Chapter1.static_class;
+package Chapter2.static_class;
 
 public class Client {
     public static void main(String[] args) {

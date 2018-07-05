@@ -1,4 +1,4 @@
-package Chapter1.static_class;
+package Chapter2.static_class;
 
 // static类
 // 外部类不区分static与否，统一不允许使用static标识；

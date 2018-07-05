@@ -1,7 +1,6 @@
-package Chapter1.service_and_provider.manager;
+package Chapter2.service_and_provider.manager;
 
-import Chapter1.service_and_provider.provider.LanguageServiceProvider;
-import Chapter1.service_and_provider.service.LanguageService;
+import Chapter2.service_and_provider.service.LanguageService;
 
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -15,8 +14,8 @@ public class LanguageServicesV2 {
 
     // 初始化，从配置加载，保存service类名
     static {
-        String[] servicesConf = {"chinese:Chapter1.service_and_provider.service.ChineseServiceImpl",
-                "english:Chapter1.service_and_provider.service.EnglishServiceImpl"};
+        String[] servicesConf = {"chinese:Chapter2.service_and_provider.service.ChineseServiceImpl",
+                "english:Chapter2.service_and_provider.service.EnglishServiceImpl"};
         for (int i=0; i<servicesConf.length; i++) {
             String[] pair = servicesConf[i].split(":");
             if (pair.length == 2) {

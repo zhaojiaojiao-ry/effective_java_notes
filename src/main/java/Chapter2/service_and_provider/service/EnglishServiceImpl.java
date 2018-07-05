@@ -1,4 +1,4 @@
-package Chapter1.service_and_provider.service;
+package Chapter2.service_and_provider.service;
 
 public class EnglishServiceImpl implements LanguageService {
 

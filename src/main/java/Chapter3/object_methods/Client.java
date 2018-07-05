@@ -1,4 +1,4 @@
-package Chapter2.object_methods;
+package Chapter3.object_methods;
 
 import java.util.*;
 
