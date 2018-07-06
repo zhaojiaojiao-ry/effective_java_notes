@@ -1,5 +1,8 @@
 package Chapter2.static_class;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Client {
     public static void main(String[] args) {
         // static内部类的定义，不依赖与外部类的实例，直接用外部类的类名就可以了

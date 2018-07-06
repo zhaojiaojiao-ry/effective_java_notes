@@ -44,7 +44,7 @@ public class Student {
         }
     }
 
-    // 非static内部类，比如ArrayList类内部的ArrayListIterator
+    // 非static内部类，比如ArrayList类内部的ArrayListIterator，比如Map类的keySet方法返回的类可以用内部类实现(Adapter view功能)
     // 可以使用外部类中的属性
     // 内部类实例化的时候必须依赖于一个外部类的实例
     public class DerivedInfo {

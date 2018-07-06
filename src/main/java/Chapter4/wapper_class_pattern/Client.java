@@ -11,6 +11,7 @@ package Chapter4.wapper_class_pattern;
 // 问题：如果还有其他类想要扩展Set类，也需要重复这样实现。
 // 没有办法借助Set的接口定义，直接重写Set接口定义的方法，必须自己实现对着set的接口定义重新定义并实现。
 
+import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -19,7 +20,7 @@ import java.util.List;
 // 定义WapperSetV3类，继承ForwardSet类，并增加额外的属性和功能，可以重写set类的方法。
 // 问题：需要定义ForwardSet类，实现一遍set接口的方法。
 // 好处：定义的ForwardSet类作为父类，可以允许多个类扩展ForwardSet类，复用。
-// 借助了Set的接口定义，直接重写Set接口定义的方法达到新功能。
+// 借助了Set的接口定义，直接重写Set接口定义的方法达到新功能，达到类似继承了Set的效果。
 public class Client {
     public static void main(String[] args) {
         WapperSetV3<Integer> wapperSetV3 = new WapperSetV3<>(new HashSet<>());
