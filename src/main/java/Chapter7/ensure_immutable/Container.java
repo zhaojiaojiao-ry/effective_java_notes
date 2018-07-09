@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+// 防御式复制 defensive copy
 public class Container {
     private Map<Key, Value> map = new HashMap<>();
 
